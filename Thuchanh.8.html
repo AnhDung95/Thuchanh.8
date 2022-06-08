@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập</title>
+</head>
+<body>
+<script>
+    let A=prompt("Nhập thông tin đăng nhập")
+    if (A=="Admin") {
+        let B=prompt("Nhập mật khẩu")
+
+        if (B=="TheMaster") {
+            alert("Welcome")
+
+        } else if (B == "Null"){
+            alert("Canceled")
+
+        } else {
+            alert("Sai mật khẩu")
+        }
+    }
+
+    else if (A=="null"){
+        alert("Canceled")
+    }else {
+        alert("Cút")
+    }
+</script>
+</body>
+</html>
